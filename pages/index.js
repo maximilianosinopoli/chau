@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <a href='/settings'>Settings</a>
+          <Link href='/settings'>Settings</Link>
           <h1 style={{ backgroundColor: 'red' }}>Setttings</h1>
           <div>
             <a
