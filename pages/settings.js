@@ -2,7 +2,7 @@ const myComponentStyle = {
     color: 'blue',
     lineHeight: 10,
     padding: '1.5em',
-    backgroundColor: 'red'
+    backgroundColor: 'green'
 }
 
 const Settings = () => {
