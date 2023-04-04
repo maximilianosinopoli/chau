@@ -17,7 +17,8 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <Link href='/settings'>Settings</Link>
+          <a href='/settings'>Settings</a>
+          <h1 style={{ backgroundColor: 'red' }}>Setttings</h1>
           <div>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
