@@ -1,9 +1,14 @@
-import React from 'react'
+const myComponentStyle = {
+    color: 'blue',
+    lineHeight: 10,
+    padding: '1.5em',
+    backgroundColor: 'red'
+}
 
 const Settings = () => {
-    return (
-        <h1 style={{ backgroundColor: 'red' }}>Setttings</h1>
-    )
+
+    return <div style={myComponentStyle}> Inline Styled Component</div>
+
 }
 
 export default Settings;
