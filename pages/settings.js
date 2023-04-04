@@ -2,7 +2,7 @@ import React from 'react'
 
 const Settings = () => {
     return (
-        <h1>Setttings</h1>
+        <h1 style={{ backgroundColor: 'red' }}>Setttings</h1>
     )
 }
 
